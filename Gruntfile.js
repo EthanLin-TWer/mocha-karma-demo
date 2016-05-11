@@ -49,6 +49,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('default', ['browserify', 'watch:js']);
     grunt.registerTask('mocha', ['mochaTest', 'watch:test']);
-    grunt.registerTask('karma', ['karma']);
 
 };
