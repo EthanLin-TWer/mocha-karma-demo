@@ -11,7 +11,7 @@ var _firstController2 = _interopRequireDefault(_firstController);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_angular2.default.module('mocha-karma').controller('firstController', _firstController2.default);
+_angular2.default.module('mocha-karma', []).controller('FirstController', _firstController2.default);
 
 },{"./first/first-controller":2,"angular":4}],2:[function(require,module,exports){
 'use strict';
