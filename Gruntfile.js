@@ -31,14 +31,21 @@ module.exports = function(grunt) {
                 },
                 src: ['test/**/*.spec.js']
             }
+        },
+        karma: {
+            unit: {
+                configFile: 'test/karma.conf.js'
+            }
         }
     });
 
     grunt.loadNpmTasks("grunt-browserify");
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-mocha-test');
+    grunt.loadNpmTasks('grunt-karma');
 
     grunt.registerTask('default', ['browserify', 'watch:js']);
     grunt.registerTask('test', ['mochaTest', 'watch:test']);
+    grunt.registerTask('karma', ['karma']);
 
 };
