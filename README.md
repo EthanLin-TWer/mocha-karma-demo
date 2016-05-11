@@ -34,3 +34,14 @@ http-server -p 3939
 ```
 
 and visit `localhost:3939`
+
+## How can I run tests using mocha/karma?
+
+Try the following commands to run tests using mocha/karma in the project root after you checked in the code and have all the dependencies installed:
+
+```
+grunt mocha
+grunt karma
+```
+
+## How Mocha works/ From where can I dive into Mocha if I want/ ...etc
