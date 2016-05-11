@@ -13,6 +13,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+
         watch: {
             js: {
                 files: ['app/**/*.js'],
@@ -23,15 +24,17 @@ module.exports = function(grunt) {
                 tasks: ['mochaTest']
             }
         },
+
         mochaTest: {
             test: {
                 options: {
                     reporter: 'spec',
                     require: ['babel-register']
                 },
-                src: ['test/**/*.spec.js']
+                src: ['test/unit-mocha/**/*.spec.js']
             }
         },
+
         karma: {
             unit: {
                 configFile: 'test/karma.conf.js'
@@ -45,7 +48,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-karma');
 
     grunt.registerTask('default', ['browserify', 'watch:js']);
-    grunt.registerTask('test', ['mochaTest', 'watch:test']);
+    grunt.registerTask('mocha', ['mochaTest', 'watch:test']);
     grunt.registerTask('karma', ['karma']);
 
 };
