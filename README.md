@@ -7,9 +7,9 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 * Front-end framework
 	* [ ] Angular
 * Front-end build tools
-	* [ ] npm(install dependencies)
-	* [ ] bower(will actually not be used in this demo)
-	* [ ] grunt(run build/copy/minify/watch/test tasks)
+	* [x] npm(install dependencies)
+	* [x] bower(will actually not be used in this demo)
+	* [x] grunt(run build/copy/minify/watch/test tasks)
 	* [ ] babel(to transpile ES6 code)
 * Front-end TESTING FRAMEWORK(runner&assertion library)
 	* [ ] mocha
