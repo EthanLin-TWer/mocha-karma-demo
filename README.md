@@ -51,10 +51,22 @@ grunt karma
 
 ## What's the user interface of mocha/karma?
 
-When it comes to Karma, the console output gets overwhelmed by a lot of loading messages though I've minimize the font size:
+When it comes to Karma, the console output gets overwhelmed by a lot of loading messages even though I've tried to minimize the font size. Of course there're ways for you to suppress karma's console output, but another thing revealed is that Karma's trying to loading something before running the tests. Please refer to the next section of how they works and what's the advantage of them.
 
 ![](./images/karma.png)
 
 Below's mocha one:
 
 ![](./images/mocha.png)
+
+## How code writeen in Chai/Jasmine assertion look like?
+
+## How mocha/karma works && What's the advantages of their own?
+
+## Learning curves
+
+## Concerns && Suggestions
+* Risk of new tools(learning curve)
+* Support of debug
+* Community maturity
+* ...
