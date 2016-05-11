@@ -1,6 +1,11 @@
 # README 读我
 
-This repo is intended to demo the usage/advantage/learning cost of learning karma and mocha as a test runner. And if applicable, jasmine and chai as a front-end assertion library will be used to write tests and compared.
+This repo is intended to demo the following things:
+
+* What's the user interface of karma/mocha as a test runner
+* What would writing unit test for Angular written in ES6 manner be like in Chai/Jasmine syntax
+* What's the usage(advantage) of using karma/mocha? And what about for Chai/Jasmine?
+* What will be the learning curve/cost for the team if we choose any of the tools?
 
 ## What will be demoed?
 
