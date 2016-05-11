@@ -17,3 +17,19 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 	* [ ] karma
 	* [x] chai
 	* [ ] jasmine
+
+## How can I start this demo locally?
+
+For starting the server, the easiest way to do is using npm's http-server module. Please make sure you have `http-server` installed globally in your machine by running:
+
+```
+npm install -g http-server
+```
+
+And then simply run:
+
+```
+http-server -p 3939
+```
+
+and visit `localhost:3939`
