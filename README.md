@@ -14,9 +14,9 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 	* [x] browserify
 * Front-end TESTING FRAMEWORK(runner&assertion library)
 	* [x] mocha
-	* [ ] karma
+	* [x] karma
 	* [x] chai
-	* [ ] jasmine
+	* [x] jasmine
 
 ## How can I start this demo locally?
 
@@ -26,9 +26,10 @@ For starting the server, the easiest way to do is using npm's http-server module
 npm install -g http-server
 ```
 
-And then simply run:
+Make sure you have run `npm install` at least once after you pulled the code and then simply run:
 
 ```
+npm install
 http-server -p 3939
 ```
 
