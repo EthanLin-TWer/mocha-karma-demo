@@ -5,7 +5,7 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 ## What will be demoed?
 
 * Front-end framework
-	* [ ] Angular
+	* [x] Angular
 * Front-end build tools
 	* [x] npm(install dependencies)
 	* [x] bower(will actually not be used in this demo)

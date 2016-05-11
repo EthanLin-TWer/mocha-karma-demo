@@ -1,17 +1,20 @@
 {
-    "name": "mocha-karma-demo",
-    "version": "1.0.0",
-    "description": "Demo mocha/karma and jasmine/chai",
-    "main": "index.js",
-    "scripts": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/linesh-simplicity/mocha-karma-demo.git"
-    },
-    "author": "Congyu Lin",
-    "license": "MIT",
-    "homepage": "http://blog.linesh.tw/mocha-karma-demo",
-    "devDependencies": {
-        "grunt": "^1.0.1"
-    }
+  "name": "mocha-karma-demo",
+  "version": "1.0.0",
+  "description": "Demo mocha/karma and jasmine/chai",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linesh-simplicity/mocha-karma-demo.git"
+  },
+  "author": "Congyu Lin",
+  "license": "MIT",
+  "homepage": "http://blog.linesh.tw/mocha-karma-demo",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
 }
