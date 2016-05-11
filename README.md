@@ -13,7 +13,7 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 	* [x] babelify(to transpile ES6 code)
 	* [x] browserify
 * Front-end TESTING FRAMEWORK(runner&assertion library)
-	* [ ] mocha
+	* [x] mocha
 	* [ ] karma
-	* [ ] chai
+	* [x] chai
 	* [ ] jasmine
