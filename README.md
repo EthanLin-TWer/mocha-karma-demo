@@ -7,21 +7,21 @@ This repo is intended to demo the following things:
 * What's the usage(advantage) of using karma/mocha? And what about for Chai/Jasmine?
 * What will be the learning curve/cost for the team if we choose any of the tools?
 
-## What will be demoed?
+## What tech-stack is used for demonstration purpose in this repo?
 
 * Front-end framework
 	* [x] Angular
+* Front-end TESTING framework(runner&assertion library)
+	* [x] mocha
+	* [x] karma
+	* [x] chai
+	* [x] jasmine
 * Front-end build tools
 	* [x] npm(install dependencies)
 	* [x] bower(will actually not be used in this demo)
 	* [x] grunt(run build/copy/minify/watch/test tasks)
 	* [x] babelify(to transpile ES6 code)
-	* [x] browserify
-* Front-end TESTING FRAMEWORK(runner&assertion library)
-	* [x] mocha
-	* [x] karma
-	* [x] chai
-	* [x] jasmine
+	* [x] browserify(as we're currently using in the project)
 
 ## How can I start this demo locally?
 
@@ -49,4 +49,12 @@ grunt mocha
 grunt karma
 ```
 
-## How Mocha works/ From where can I dive into Mocha if I want/ ...etc
+## What's the user interface of mocha/karma?
+
+When it comes to Karma, the console output gets overwhelmed by a lot of loading messages though I've minimize the font size:
+
+![](./images/karma.png)
+
+Below's mocha one:
+
+![](./images/mocha.png)
