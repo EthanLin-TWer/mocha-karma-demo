@@ -10,7 +10,8 @@ This repo is intended to demo the usage/advantage/learning cost of learning karm
 	* [x] npm(install dependencies)
 	* [x] bower(will actually not be used in this demo)
 	* [x] grunt(run build/copy/minify/watch/test tasks)
-	* [x] babel(to transpile ES6 code)
+	* [x] babelify(to transpile ES6 code)
+	* [x] browserify
 * Front-end TESTING FRAMEWORK(runner&assertion library)
 	* [ ] mocha
 	* [ ] karma

@@ -4,10 +4,13 @@
         <meta charset="utf-8">
         <title>Mocha/Karma Demo</title>
 
-        <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
-
+        <script type="text/javascript" src="./dist/bundle.js"></script>
     </head>
+
     <body ng-app>
         This is the first angular app.
+        <div class="first-section" ng-controller="firstController as first">
+            '{{ first.helloMessage }}' greetings from FirstController
+        </div>
     </body>
 </html>
