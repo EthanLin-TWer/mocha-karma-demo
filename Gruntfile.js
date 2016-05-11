@@ -14,14 +14,31 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            files: ['app/**/*.js'],
-            tasks: ['browserify']
+            js: {
+                files: ['app/**/*.js'],
+                tasks: ['browserify']
+            },
+            "test": {
+                files: ['app/**/*.js'],
+                tasks: ['mochaTest']
+            }
+        },
+        mochaTest: {
+            test: {
+                options: {
+                    reporter: 'spec',
+                    require: ['babel-register']
+                },
+                src: ['test/**/*.spec.js']
+            }
         }
     });
 
     grunt.loadNpmTasks("grunt-browserify");
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-mocha-test');
 
-    grunt.registerTask('default', ['browserify', 'watch']);
+    grunt.registerTask('default', ['browserify', 'watch:js']);
+    grunt.registerTask('test', ['mochaTest', 'watch:test']);
 
 };
