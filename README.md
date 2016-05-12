@@ -7,6 +7,13 @@ This repo is intended to demo the following things:
 * What's the usage(advantage) of using karma/mocha? And what about for Chai/Jasmine?
 * What will be the learning curve/cost for the team if we choose any of the tools?
 
+目前项目上面临选用karma/jasmine还是mocha/chai/sinon做测试框架的选择，因此这个demo仓库是为了比较两者：
+
+* karma/mocha作为test runner，各自用户界面如何
+* 如何使用各自的断言库Chai/Jasmine对基于ES6编写的Angular代码进行测试
+* karma/jasmine及mocha/chai/sinon各自套件的优劣（特点）是什么？适用于何种场景？
+* 在项目已经setup好Karma以及当前的项目现状下，改用mocha/chai/sinon套件有何风险？学习成本？
+
 ## What tech-stack is used for demonstration purpose in this repo?
 
 * Front-end framework
@@ -60,6 +67,16 @@ Below's mocha one:
 ![](./images/mocha.png)
 
 ## How code writeen in Chai/Jasmine assertion look like?
+
+In conclusion, Jasmine more intended to a all-in-one solution while Mocha acts only as a test runner and leave assertion and test doubles to other tools(for those tends to be the most popular, Chai is for assertion and Sinon for interacting with Sinon).
+
+### API
+
+Assertions for Jasmine/Chai are pretty much the same.g
+
+### Mock
+
+### Asynchronous Testing(Promise, api call)
 
 ## How mocha/karma works && What's the advantages of their own?
 
